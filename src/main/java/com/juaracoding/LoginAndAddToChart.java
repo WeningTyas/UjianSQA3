@@ -1,29 +1,38 @@
 package com.juaracoding;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginAndAddToChart {
+
     public static void main(String[] args) {
         String path = "E:\\Bootcam\\ChromeDriver\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", path);
         WebDriver driver = new ChromeDriver();
-        Scroll scroll = new Scroll(driver);
 
         driver.manage().window().maximize();
 
+        loginTest(driver);
+        addToChartTest(driver);
+
+        //End proses
+        delay();
+        driver.quit();
+        System.out.println("Keluar dari Browser");
+    }
+
+
+    //============================ Login ke akun =========================//
+    public static void loginTest(WebDriver driver){
+        Scroll scroll = new Scroll(driver);
         driver.get("https://shop.demoqa.com");
         System.out.println("Buka Browser dan buka URL");
 
         // Scroll ke bawah dan munculkan header, karena header ketutup "This is a ToolsQA Demo shop for testing purposes"
-        JavascriptExecutor jx = (JavascriptExecutor) driver;
         scroll.scrollBy(0, 200);
         System.out.println("Scroll ke bawah, utk munculkan header");
-
-        //============================ Login ke akun =========================//
 
         // KLik MyAccount
         WebElement elemen = driver.findElement(By.cssSelector("a[href='https://shop.demoqa.com/my-account/']"));
@@ -49,9 +58,12 @@ public class LoginAndAddToChart {
         }
         // Karena mau saat login ataupun tidak tetap tulisan Headernya my account (ini gak bisa dibuat patokan),
         // jd pembedanya hanya di form login atau menu, yg mana salah satu menunya adalah Dashboard
+    }
 
-        //============================ Tambahkan produk ke Chart =========================//
 
+    //============================ Tambahkan produk ke Chart =========================//
+    public static void addToChartTest(WebDriver driver){
+        Scroll scroll = new Scroll(driver);
         WebElement orders = driver.findElement(By.cssSelector("a[href='https://shop.demoqa.com/my-account/orders/']"));
         orders.click();
         System.out.println("Klik menu Orders");
@@ -99,11 +111,6 @@ public class LoginAndAddToChart {
         } else {
             System.out.println("Tambah produk gagal");
         }
-
-        //End proses
-        delay();
-        driver.quit();
-        System.out.println("Keluar dari Browser");
     }
 
     public static void delay(){
