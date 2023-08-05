@@ -1,4 +1,4 @@
-package com.juaracoding.ex_2;
+package com.juaracoding;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -11,6 +11,7 @@ public class Sekaligus {
         String path = "E:\\Bootcam\\ChromeDriver\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", path);
         WebDriver driver = new ChromeDriver();
+        Scroll scroll = new Scroll(driver);
 
         driver.manage().window().maximize();
 
@@ -19,7 +20,7 @@ public class Sekaligus {
 
         // Scroll ke bawah dan munculkan header, karena header ketutup "This is a ToolsQA Demo shop for testing purposes"
         JavascriptExecutor jx = (JavascriptExecutor) driver;
-        jx.executeScript("window.scrollBy(0,200)");
+        scroll.scrollBy(0, 200);
         System.out.println("Scroll ke bawah, utk munculkan header");
 
         //============================ Login ke akun =========================//
@@ -29,7 +30,7 @@ public class Sekaligus {
         elemen.click();
         System.out.println("Klik menu My Account");
 
-        jx.executeScript("window.scrollBy(0,500)");
+        scroll.scrollBy(0, 500);
 
         // Isi uname & password
         driver.findElement(By.name("username")).sendKeys("weningputri3@gmail.com");
@@ -37,7 +38,7 @@ public class Sekaligus {
         driver.findElement(By.name("login")).click();
         System.out.println("Masukkan username & password lalu klik Login");
 
-        jx.executeScript("window.scrollBy(0,500)");
+        scroll.scrollBy(0, 500);
 
         // Verifikasi sdh login atau belum
         String menu = driver.findElement(By.className("woocommerce-MyAccount-navigation")).getText();
@@ -55,21 +56,21 @@ public class Sekaligus {
         orders.click();
         System.out.println("Klik menu Orders");
 
-        jx.executeScript("window.scrollBy(0,500)");
+        scroll.scrollBy(0, 500);
 
         // Klik tombol Browse products
         WebElement browse = driver.findElement(By.className("woocommerce-Button"));
         browse.click();
         System.out.println("Klik menu Browse products");
 
-        jx.executeScript("window.scrollBy(0,500)");
+        scroll.scrollBy(0, 500);
         System.out.println("Scroll ke bawah dan cari produk");
 
         // Pilih 1 produk
         driver.findElement(By.className("noo-product-inner")).click();
         System.out.println("Pilih satu produk");
 
-        jx.executeScript("window.scrollBy(0,500)");
+        scroll.scrollBy(0, 500);
 
         //Pilih dropdown 1, Color
         WebElement pilihWarna = driver.findElement(By.id("pa_color"));

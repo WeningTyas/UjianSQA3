@@ -1,5 +1,6 @@
 package com.juaracoding.ex_1;
 
+import com.juaracoding.Scroll;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
