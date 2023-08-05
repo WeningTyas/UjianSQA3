@@ -1,4 +1,4 @@
-package com.juaracoding.ex;
+package com.juaracoding.ex_1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
