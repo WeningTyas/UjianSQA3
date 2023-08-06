@@ -23,11 +23,15 @@ public class LoginTest {
     public void testLogin(){
         driver.get("https://shop.demoqa.com/my-account/");
         JavascriptExecutor jx = (JavascriptExecutor) driver;
+
         jx.executeScript("window.scrollBy(0,500)");
 
         driver.findElement(By.name("username")).sendKeys("weningputri3@gmail.com");
         driver.findElement(By.name("password")).sendKeys("GunakanSandiKuat");
         driver.findElement(By.name("login")).click();
+        System.out.println("Masukkan username & password lalu klik Login");
+
+        jx.executeScript("window.scrollBy(0,500)");
 
         String menu = driver.findElement(By.className("woocommerce-MyAccount-navigation")).getText();
         Assert.assertTrue(menu.contains("Dashboard"));
