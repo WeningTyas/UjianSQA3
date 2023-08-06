@@ -21,6 +21,7 @@ public class LoginAndAddToChart {
         delay();
         driver.quit();
         System.out.println("Keluar dari Browser");
+
     }
 
 
