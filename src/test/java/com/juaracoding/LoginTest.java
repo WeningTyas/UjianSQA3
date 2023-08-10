@@ -15,7 +15,7 @@ public class LoginTest {
 
     @BeforeMethod
     public void setup() {
-        String path = "E:\\Bootcam\\ChromeDriver\\chromedriver.exe";
+        String path = "E:\\Bootcam\\App\\ChromeDriver\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", path);
         driver = new ChromeDriver();
     }

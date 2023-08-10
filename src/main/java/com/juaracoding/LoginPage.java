@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginPage {
     public static void main(String[] args) {
-        String path = "E:\\Bootcam\\ChromeDriver\\chromedriver.exe";
+        String path = "E:\\Bootcam\\App\\ChromeDriver\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", path);
         WebDriver driver = new ChromeDriver();
 
