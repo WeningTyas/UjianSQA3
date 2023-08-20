@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44e71bd2-9015-4a30-9ba7-d0d2ef7f0009" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2U98vbuCYAXaUTMxYKsPKCFOBmD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Bootcam\Koding\UjianMingguKe3\src\test\java" />
+      <recent name="E:\Bootcam\Koding\UjianMingguKe3\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LoginAndAddToChart (1)">
+    <configuration name="AddToChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.AddToChart" />
+      <module name="UjianMingguKe3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginAndAddToChart (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.LoginAndAddToChart" />
+      <module name="UjianMingguKe3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.LoginPage" />
+      <module name="UjianMingguKe3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddToChartTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UjianMingguKe3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.AddToChartTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UjianMingguKe3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.juaracoding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.juaracoding" />
+      <option name="MAIN_CLASS_NAME" value="com.juaracoding.LoginTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LoginAndAddToChart (1)" />
+        <item itemvalue="Application.AddToChart" />
+        <item itemvalue="Application.LoginPage" />
+        <item itemvalue="TestNG.AddToChartTest" />
+        <item itemvalue="TestNG.LoginTest.testLogin" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44e71bd2-9015-4a30-9ba7-d0d2ef7f0009" name="Default Changelist" comment="" />
+      <created>1692340667423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692340667423</updated>
+      <workItem from="1692340670873" duration="394000" />
+      <workItem from="1692341259057" duration="54000" />
+      <workItem from="1692468750813" duration="41000" />
+      <workItem from="1692469057986" duration="38000" />
+      <workItem from="1692469377994" duration="174000" />
+      <workItem from="1692553680453" duration="1337000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
