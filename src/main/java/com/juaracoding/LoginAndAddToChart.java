@@ -124,3 +124,9 @@ public class LoginAndAddToChart {
         }
     }
 }
+
+/*Klo ada error pas run bagian addToChartTest
+* Itu biasanya karena di webnya udh ada produk yg nyangkut
+* maka coba aja hapus dulu tuh produk
+* trus Run ulang
+* */

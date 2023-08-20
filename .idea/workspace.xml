@@ -8,6 +8,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2U98vbuCYAXaUTMxYKsPKCFOBmD" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
@@ -134,7 +137,7 @@
       <workItem from="1692468750813" duration="41000" />
       <workItem from="1692469057986" duration="38000" />
       <workItem from="1692469377994" duration="174000" />
-      <workItem from="1692553680453" duration="1337000" />
+      <workItem from="1692553680453" duration="1834000" />
     </task>
     <servers />
   </component>
