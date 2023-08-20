@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44e71bd2-9015-4a30-9ba7-d0d2ef7f0009" name="Default Changelist" comment="" />
+    <list default="true" id="44e71bd2-9015-4a30-9ba7-d0d2ef7f0009" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/model/AddToChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/model/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/AddToChartTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/juaracoding/LoginTest_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/juaracoding/model/AddToChart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/juaracoding/model/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/juaracoding/AddToChartTest_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/juaracoding/LoginTest_2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ujianmingguke3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/juaracoding/LoginAndAddToChart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/juaracoding/LoginAndAddToChart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/juaracoding/LoginAndAddToChart.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/juaracoding/LoginAndAddToChart.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +58,7 @@
   <component name="RunManager" selected="Application.LoginAndAddToChart (1)">
     <configuration name="AddToChart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.AddToChart" />
-      <module name="UjianMingguKe3" />
+      <module name="ujianmingguke3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.juaracoding.*" />
@@ -53,7 +71,7 @@
     </configuration>
     <configuration name="LoginAndAddToChart (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.LoginAndAddToChart" />
-      <module name="UjianMingguKe3" />
+      <module name="ujianmingguke3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.juaracoding.*" />
@@ -66,7 +84,7 @@
     </configuration>
     <configuration name="LoginPage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.juaracoding.LoginPage" />
-      <module name="UjianMingguKe3" />
+      <module name="ujianmingguke3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.juaracoding.*" />
@@ -77,8 +95,55 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="ujianmingguke3" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="ujianmingguke3" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AddToChartTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UjianMingguKe3" />
+      <module name="ujianmingguke3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.juaracoding.*" />
@@ -95,7 +160,7 @@
       </method>
     </configuration>
     <configuration name="LoginTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UjianMingguKe3" />
+      <module name="ujianmingguke3" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.juaracoding.*" />
@@ -138,6 +203,7 @@
       <workItem from="1692469057986" duration="38000" />
       <workItem from="1692469377994" duration="174000" />
       <workItem from="1692553680453" duration="1834000" />
+      <workItem from="1692555544382" duration="832000" />
     </task>
     <servers />
   </component>
