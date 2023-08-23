@@ -1,36 +1,33 @@
 package com.juaracoding;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
 
-public class AddToChartTest {
+public class CartPage {
+    public static void addToChartTest(WebDriver driver){
+        Scroll scroll = new Scroll(driver);
+        scroll.scrollBy(0, -500);
 
-    private WebDriver driver;
+        WebElement cart = driver.findElement(By.xpath("//span[contains(@class, 'cart-name-and-total')]"));
+        cart.click();
+        System.out.println("Klik menu Cart");
 
-    @BeforeMethod
-    public void setup() {
-        String path = "E:\\Bootcam\\App\\ChromeDriver\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", path);
-        driver = new ChromeDriver();
-    }
-    @Test
-    public void testAddToChart(){
-        driver.get("https://shop.demoqa.com/shop/");
-        JavascriptExecutor jx = (JavascriptExecutor) driver;
-        jx.executeScript("window.scrollBy(0,500)");
+        scroll.scrollBy(0, 500);
+
+        // Klik tombol Browse products
+        WebElement returnShop = driver.findElement(By.xpath("//a[@class='button wc-backward']"));
+        returnShop.click();
+        System.out.println("Klik menu Return to Shop");
+
+        scroll.scrollBy(0, 500);
+        System.out.println("Scroll ke bawah dan cari produk");
 
         // Pilih 1 produk
         driver.findElement(By.className("noo-product-inner")).click();
         System.out.println("Pilih satu produk");
 
-        jx.executeScript("window.scrollBy(0,500)");
+        scroll.scrollBy(0, 500);
 
         //Pilih dropdown 1, Color
         WebElement pilihWarna = driver.findElement(By.id("pa_color"));
@@ -52,16 +49,12 @@ public class AddToChartTest {
         add.click();
         System.out.println("klik Add to Chart");
 
+        // Verifikasi sdh berhasil atau belum
         String pesan = driver.findElement(By.className("woocommerce-message")).getText();
-        Assert.assertTrue(pesan.contains("has been added to your cart"));
-    }
-    @AfterMethod
-    public void close() {
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e){
-            throw new RuntimeException(e);
+        if(pesan.contains("has been added to your cart")){
+            System.out.println("Tambah produk Oke!");
+        } else {
+            System.out.println("Tambah produk gagal");
         }
-        driver.quit();
     }
 }

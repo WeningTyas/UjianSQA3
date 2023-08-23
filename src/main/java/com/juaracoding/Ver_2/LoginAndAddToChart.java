@@ -1,5 +1,6 @@
-package com.juaracoding;
+package com.juaracoding.Ver_2;
 
+import com.juaracoding.Scroll;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -21,7 +22,6 @@ public class LoginAndAddToChart {
         delay();
         driver.quit();
         System.out.println("Keluar dari Browser");
-
     }
 
 

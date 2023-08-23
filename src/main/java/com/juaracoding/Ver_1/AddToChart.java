@@ -1,4 +1,4 @@
-package com.juaracoding;
+package com.juaracoding.Ver_1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
